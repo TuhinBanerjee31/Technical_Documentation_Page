@@ -1,0 +1,49 @@
+header{
+    font-size: 45px;
+    margin: 20px;
+    font-family: 'Bebas Neue', cursive;
+  }
+  #navbar {
+      position: fixed;
+      min-width: 290px;
+      top: 0px;
+      left: 0px;
+      width: 300px;
+      height: 100%;
+      border-right: solid;
+      border-color: rgba(0, 22, 22, 0.4);
+      background-color: silver;
+  }
+  a{
+    font-size: 20px;
+    margin: 10px;
+    line-height: 50px;
+    color: brown;
+    text-decoration: none;
+    
+  }
+  #main-doc{
+    margin-left: 400px;
+  }
+  article{
+    font-size: 20px;
+  }
+  p {
+    margin-top: 30px ;
+    margin-bottom: 30px ;
+  }
+  .bb{
+    background-color: silver;
+    margin-right: 15px;
+    border-radius:10px;
+    padding: 30px;
+  }
+  #l1{
+    color: brown;
+    background-color: grey;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  body{
+    background-color: azure;
+  }
