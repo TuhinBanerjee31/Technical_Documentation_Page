@@ -1,29 +1,41 @@
+body{
+  margin: auto 0;
+}
+
 header{
     font-size: 45px;
     margin: 20px;
     font-family: 'Bebas Neue', cursive;
   }
+
+
   #navbar {
-      position: fixed;
-      min-width: 290px;
+      background-color: silver;
+      border-right: solid;
+      align-content: center;
+      /* position: fixed;
+      min-width: 20%;
       top: 0px;
       left: 0px;
-      width: 300px;
+      width: 20%;
       height: 100%;
-      border-right: solid;
       border-color: rgba(0, 22, 22, 0.4);
-      background-color: silver;
+      background-color: silver; */
+  }
+
+  .nav-list{
+    /* position: fixed;
+    overflow: hidden; */
   }
   a{
-    font-size: 20px;
+    font-size: 1.3rem;
     margin: 10px;
-    line-height: 50px;
+    line-height: 200%;
     color: brown;
     text-decoration: none;
-    
   }
   #main-doc{
-    margin-left: 400px;
+    margin-left: 2rem;
   }
   article{
     font-size: 20px;
@@ -46,4 +58,27 @@ header{
   }
   body{
     background-color: azure;
+  }
+
+  @media only screen and (max-width: 600px){
+    header{
+      font-size: 30px;
+    }
+
+    article{
+      font-size: 10px;
+    }
+
+    a{
+      font-size: 1rem;
+    }
+
+    /* #main-doc{
+      margin-left: 20%;
+    } */
+  }
+
+  .box {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
   }
